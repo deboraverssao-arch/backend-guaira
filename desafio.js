@@ -1,4 +1,4 @@
-.//🔵 Declare 5 variáveis de um perfil de um jogador
+//🔵 Declare 5 variáveis de um perfil de um jogador
 
 let nomeJogador = "Gavi"
 let posição = "Meia"
@@ -10,3 +10,6 @@ console.log(`O jogador ${nomeJogador} Joga no ${time}`);
 
 let salario = 9.300;
 let quantidadeMeses = 12;
+let ganhoAno = salario * quantidadeMeses;
+
+console.log(`salario do ano é ${ganhoAno}`)
